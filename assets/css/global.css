@@ -6,7 +6,7 @@
 body {
     min-height: 100vh;
     background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
         url('../imgs/test3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +20,7 @@ body {
     border: 1px solid #fff;
     border-radius: 1rem;
     
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),url('../imgs/test.avif');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     background-repeat: no-repeat;
     background-size: cover;
 
