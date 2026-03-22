@@ -1,0 +1,84 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.portfolio li{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1rem 0;
+    padding: 0 0 0 1rem;
+}
+
+.portfolio li .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding-top: .5rem;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.portfolio li .title.github::before{
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../imgs/icons/github.png');
+    margin-right: .5rem;
+}
+
+.portfolio li .title.dio::before {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../imgs/icons/dio.png');
+    margin-right: 0.5rem;
+}
+
+.portfolio li .title.udemy::before {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../imgs/icons/udemy.png');
+    margin-right: 0.5rem;
+}
+
+.portfolio li .title.website::before {
+    content: '';
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url('../imgs/icons/website.png');
+    margin-right: 0.5rem;
+}
+
+.portfolio li a{
+    color: lightseagreen;
+    text-decoration: none;
+    margin-bottom: .5rem;
+}
+
+.portfolio li a:hover{
+    text-decoration: underline;
+}
