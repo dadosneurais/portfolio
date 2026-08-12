@@ -79,10 +79,13 @@
     transition: .3s ease;
 }
 
-.poc-link:hover {
-    color: #ff7070;
+.poc-link {
+    position: relative;
+    display: inline-block;
+    color: inherit;
+    font-weight: inherit;
     text-decoration: none;
-    text-shadow: 0 0 8px rgba(255, 77, 77, .5);
+    transition: .3s ease;
 }
 
 .poc-link::after {
@@ -96,6 +99,12 @@
     border-radius: 2px;
     box-shadow: 0 0 6px rgba(255, 77, 77, .6);
     transition: width .3s ease;
+}
+
+.poc-link:hover {
+    color: #ff4d4d;
+    text-decoration: none;
+    text-shadow: 0 0 8px rgba(255, 77, 77, .5);
 }
 
 .poc-link:hover::after {
